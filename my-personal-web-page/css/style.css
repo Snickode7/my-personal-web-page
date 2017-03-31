@@ -1,0 +1,277 @@
+/*Background,body,containers(main layout)+++++++++++*/
+
+
+
+html,body{
+    margin: 0 auto 0 auto;
+    padding: 0;
+    background: lightgoldenrodyellow;
+    background-size: 40%;
+    background-repeat:;
+    background-position: right;
+    max-width: 1150px;
+}
+
+
+ /*+++++++++++++++++++
+Header and Nav
+++++++++++++++++++++++++++++++*/
+
+
+.header{
+      
+}
+
+h1{
+    font-family: 'Bungee Shade', sans-serif;
+    border-bottom: solid 10px lightgoldenrodyellow;
+    color: darkblue;
+    background: goldenrod;
+    text-align: left;
+    font-size: 2em;
+    margin: 0 auto;
+    height: 110px;
+    padding-top: 10px;
+    padding-bottom: 14.5px;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    border-bottom: solid .35em lightgoldenrodyellow;
+    border-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 1.6em;
+}
+
+.nav ul li{
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav li a{
+    display: block;
+    float: right;
+    align-content: center;
+    padding: 5px 10px;
+    color: darkblue;
+    font-family: 'Bungee Shade', sans-serif;
+}
+
+.nav li a:hover{
+    background: aliceblue;
+    color: darkblue;
+    margin: -2px;
+}
+
+
+.nav-wrapper{
+   background-color: goldenrod;
+   padding: 1px;    
+}
+
+.active {
+    background-color: lightgoldenrodyellow;
+    margin: -2px;
+}
+
+
+/*++++++++++++++++
+MAIN CONTENT PT1
++++++++++++++++++++++++++++*/
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+}
+
+.opening{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid 3px lightgoldenrodyellow;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    margin-bottom: -10px;;
+    text-align: center;
+    color: darkblue;
+}
+
+.myList li{
+    margin: 20px 20px 20px 30px;
+    list-style: square;
+}
+
+.myList{
+    border-bottom: solid 3px lightgoldenrodyellow;
+    width: 90%;
+}
+
+/*+++++++++++++++++++++++++
+MAIN CONTENT PT2
+++++++++++++++++++++++++++++++++++++*/
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+    border-bottom: solid 3px lightgoldenrodyellow;
+}
+
+.picture{
+    margin: 10px;
+    margin-left: 80px;
+    border-radius: 50%;
+    border: solid 3px lightgoldenrodyellow;
+    width: 20em;
+    height: 25em;
+    max-width: 50em;
+}
+
+.caption{
+       
+}
+
+h3{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: darkblue;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.coreyCaption{
+    border-top: solid 3px lightgoldenrodyellow;
+    
+}
+
+.galleryLink{
+    text-align: center;
+}
+
+.picture2{
+    margin: 10px;
+    margin-right: 80px;
+    border-radius: 50%;
+    border: solid 3px lightgoldenrodyellow;
+    width: 20em;
+    height: 25em;
+    max-width: 50em;
+}
+
+/*++++++++++++++++++++++++++++++++++++++
+    MAIN CONTENT PT3
+++++++++++++++++++++++++++++++++++++++++*/
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/louisville-skyline.jpg");
+    background-color: darkgoldenrod;
+    background-repeat: repeat;
+    background-size: 45em;
+    background-position: right;
+    
+}
+
+.pathforward{
+    color: darkblue;
+    border: solid 6px lightgoldenrodyellow;
+    background-color: darkgoldenrod;
+}
+
+.pfPicture{
+  margin: 0 auto;
+    
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++
+    FOOTER
++++++++++++++++++++++++++++++++++++++++*/
+
+
+.footy{
+    border-top: solid 10px lightgoldenrodyellow;
+    color: darkblue;
+    background: goldenrod;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+    height: 90px;
+    padding: 1px;
+    width: 100%; 
+    padding-top: 1em; 
+}
+
+#footFont{
+    font-size: 10px;
+}
+
+
+/*Paragraph, list, and links+++++++++++++*/
+
+
+#fontsandstuff{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 22px;
+}
+
+
+
+p{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Psuedo Classes++++++++++++++++*/
+
+
+
+a:hover{
+    color: aliceblue;
+    cursor: pointer;
+   
+    /* box-shadow: 0px 0px 50px aliceblue;*/
+}
+
+.galleryPicture:hover {
+    cursor: pointer;
+}
+
+
+

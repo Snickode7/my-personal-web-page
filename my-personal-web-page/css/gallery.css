@@ -1,0 +1,297 @@
+/*****************************
+    Gallery Specific CSS  Backwards ***
+********************************/
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+}
+
+h1 {
+    font-size: 19px;
+    text-align: center;
+}
+
+#name {
+    font-size: 29px;
+}
+
+
+
+/*****************************
+    Container 1
+********************************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    
+}
+
+.galleryHead {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -50px;
+    border-bottom: none;
+    background-color: darkgoldenrod;
+}
+
+#galleryTitle {
+    border-bottom: solid 6px lightgoldenrodyellow;
+}
+
+
+.galleryMainCaption {
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-bottom: solid 3px lightgoldenrodyellow;
+}
+
+
+
+/*****************************
+    Gallery Container 
+********************************/
+
+
+.galleryContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+
+.galleryPicture {
+    max-width: 100%;
+}
+
+.cell {
+    margin: 4em;
+    
+}
+
+.cell img {
+    display: block;
+    border: solid 2px lightgoldenrodyellow;
+}
+
+
+
+/*****************************
+    OverLay and dropdown
+********************************/
+
+
+#overlay {
+    background: rgba(0,0,139,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#overlay img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#overlay p {
+    color: aliceblue;
+    font-family: 'Acme', sans-serif;
+}
+
+.nav select {
+    display: block;
+    text-align: center;
+    margin: 0 auto; 
+    width: 60%;
+    color: darkblue;
+    background-color: lightgoldenrodyellow;
+    border: solid 3px darkgoldenrod;
+    font-size: 1.4em;
+    font-family: 'Acme', sans-serif;
+            
+    }
+    
+.nav {
+    padding-bottom: 10px;
+    }
+    
+
+
+
+
+/************
+    MEDIA QUERIES
+***************************/
+
+
+@media screen and (min-width: 570px) {
+    
+    h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 14.5;
+    }
+    
+    #name {
+        font-size: 35px;
+}
+    
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cell {
+        width: calc(50% - 8em);
+    }
+    
+    #overlay {
+        background: rgba(0,0,139,0.7);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        text-align: center;
+    }
+
+    #overlay img {
+        margin-top: 10%;
+        width: 50%
+    }
+
+    #overlay p {
+        font-family: 'Acme', sans-serif;
+        color: aliceblue;
+        font-size: 25px;
+        margin-top: 0;
+    }
+    
+    
+    /*****************************
+    Nav switching
+    ********************************/
+
+    
+    
+    .nav select {
+        display: none;
+    }
+    
+    .nav {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .nav ul {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 975px) {
+    
+    h1 {
+        font-size: 2em;
+        text-align: left;
+    }
+    
+    .cell {
+        width: calc(33.3333% - 8em);
+    }
+    
+    #overlay {
+        background: rgba(0,0,139,0.7);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        text-align: center;
+    }
+
+    #overlay img {
+        margin-top: 7%;
+        width: 30%;
+    }
+
+    #overlay p {
+        font-family: 'Acme', sans-serif;
+        color: aliceblue;
+        font-size: 25px;
+        margin-top: 0;
+    }
+    
+    
+    
+    /*****************************
+    Nav switching
+    ********************************/
+
+        
+     .nav select {
+        display: none;
+    
+    }
+    
+   .nav {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .nav ul {
+        display: inline-block;
+        float: right;
+        text-align: center;
+    }
+    
+ 
+    
+
+
+}
+
+ 
+/**********************
+    Media Query to get rid of nav
+****************************/
+
+@media screen and (max-width: 570px) {
+    
+    .nav ul {
+        display: none;
+    }
+    
+    body {
+        border-style: solid;
+        border-color: darkblue;
+        border-width: 6px;  
+    }
+}
+
+
+}
+
+
+
+
+
+

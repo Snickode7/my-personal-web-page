@@ -1,0 +1,125 @@
+
+/******************************
+  Work Container
+***********************************/
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.workHead {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -50px;
+    border-bottom: none;
+    background-color: darkgoldenrod;
+}
+
+#workTitle {
+    border-bottom: solid 6px lightgoldenrodyellow;
+}
+
+
+.workMainCaption {
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-bottom: solid 3px lightgoldenrodyellow;
+}
+
+#boldName{
+    
+    color: darkblue;
+    border-bottom: solid 2px lightgoldenrodyellow;
+}
+
+.nav select {
+    display: none
+}
+
+
+/******************************
+    Media Queries
+***********************************/
+
+@media screen and (max-width: 975px) {
+    
+    
+    h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 14.5px;
+    }
+    
+    #name {
+        font-size: 35px;
+    }
+    
+    
+     /******************************
+    Nav Changes
+    ***********************************/
+    
+    
+    .nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav ul {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 570px) {
+    
+     body {
+        border-style: solid;
+        border-color: darkblue;
+        border-width: 6px;  
+    }
+    
+     h1 {
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    #name {
+        font-size: 29px;
+    }
+    
+    /******************************
+    Nav Changes
+    ***********************************/
+    
+    
+    .nav ul {
+        display: none;
+    }
+    
+    .nav select {
+        display: block;
+        text-align: center;
+        margin: 0 auto;     
+        width: 60%;
+        color: darkblue;
+        background-color: lightgoldenrodyellow;
+        border: solid 3px darkgoldenrod;
+        font-size: 1.4em;
+        font-family: 'Acme', sans-serif;
+            
+    }
+    
+    .nav {
+       padding-bottom: 10px;
+    }
+    
+    
+}
+    
+   
